@@ -1,1 +1,44 @@
-
+{
+  "token": "",
+  "testToken": "",
+  "owners": [],
+  "use_cache": false,
+  "mongo_uri": "",
+  "topggapi": "",
+  "prefix": "",
+  "searchEngine": "",
+  "maxQueueSize": 0,
+  "webhooks": {
+    "nodelog": "",
+    "player": "",
+    "error": "",
+    "command": "",
+    "misc": "",
+    "event": "",
+    "warn": "",
+    "logs": "",
+    "joins": "",
+    "leaves": ""
+  },
+  "url": {
+    "helppage": "",
+    "infopage": ""
+  },
+  "restApi": {
+    "port": 0
+  },
+  "redis": {
+    "host": "",
+    "port": 0,
+    "db": 0
+  },
+  "nodes": [
+    {
+      "name": "",
+      "url": "",
+      "auth": "",
+      "secure": false
+    }
+  ],
+  "logChannelId": ""
+}
