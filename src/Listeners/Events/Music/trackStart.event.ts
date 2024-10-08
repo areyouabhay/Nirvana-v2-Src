@@ -36,16 +36,6 @@ export default class TrackStart extends Event {
       dispatcher.channelId
     ) as TextChannel;
     if (!channel) return;
-    const rest = new REST({
-      version: "10",
-    }).setToken(this.client.config.token);
-
-    await rest.put(`/channels/${vcId}/voice-status`, {
-      body: {
-        status: `<a:dance:1266756154730610739> Now Playing: ${track.info.title} By ${track.info.author}`,
-      },
-    });
-
     if (
       guild.members.me
         .permissionsIn(channel)
