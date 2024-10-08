@@ -1,4 +1,4 @@
-version: '3.3'  # Specify a version
+version: "3.3" # Specify a version
 
 services:
   nirvana-bot:
@@ -36,3 +36,4 @@ services:
 
 networks:
   nirvana-network:
+    driver: bridge
